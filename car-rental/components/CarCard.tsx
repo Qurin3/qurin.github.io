@@ -26,11 +26,11 @@ const CarCard = ({car}: CartCardProps) => {
         <p className='flex mt-6 text-[32px]'>
             
             <span className='self-start text-[14px] font-semibold'>
-                $
+                zł
             </span>
                 {carRent}
             <span className='self-end text-[14px] font-medium'>
-                /day
+                /dziennie
             </span>
         </p>
         <div className='relative w-full h-40 my-3 object-contain'>
@@ -57,7 +57,7 @@ const CarCard = ({car}: CartCardProps) => {
                 <div className='flex flex-col justify-center items-center gap-2'>
                     <Image src="/gas.svg" width={20} height={20} alt='steering wheel'/>
                     <p className='text-[14px]'>
-                        {city_mpg} MPG
+                        {city_mpg} L
                     </p>
                 </div>
             </div>

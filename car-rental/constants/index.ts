@@ -1,3 +1,5 @@
+import { url } from "inspector";
+
 export const manufacturers = [
     "Acura",
     "Alfa Romeo",
@@ -43,7 +45,7 @@ export const manufacturers = [
   ];
   
   export const yearsOfProduction = [
-    { title: "Year", value: "" },
+    { title: "Rok", value: "" },
     { title: "2015", value: "2015" },
     { title: "2016", value: "2016" },
     { title: "2017", value: "2017" },
@@ -57,44 +59,32 @@ export const manufacturers = [
   
   export const fuels = [
     {
-      title: "Fuel",
+      title: "Paliwo",
       value: "",
     },
     {
-      title: "Gas",
+      title: "Gaz",
       value: "Gas",
     },
     {
-      title: "Electricity",
+      title: "Elektryczny",
       value: "Electricity",
     },
   ];
   
   export const footerLinks = [
     {
-      title: "About",
+      title: "Kontakt",
       links: [
-        { title: "How it works", url: "/" },
-        { title: "Featured", url: "/" },
-        { title: "Partnership", url: "/" },
-        { title: "Bussiness Relation", url: "/" },
+        {title: "Phone number: +48 \n 512 509 050", url: '/'},
+        {title: "Napisz do nas!", url: 'mailto:filip.kl@vp.pl'}
       ],
     },
     {
-      title: "Company",
-      links: [
-        { title: "Events", url: "/" },
-        { title: "Blog", url: "/" },
-        { title: "Podcast", url: "/" },
-        { title: "Invite a friend", url: "/" },
-      ],
-    },
-    {
-      title: "Socials",
+      title: "Social media",
       links: [
         { title: "Discord", url: "/" },
         { title: "Instagram", url: "/" },
-        { title: "Twitter", url: "/" },
         { title: "Facebook", url: "/" },
       ],
     },

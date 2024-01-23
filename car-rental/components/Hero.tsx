@@ -6,23 +6,26 @@ import { CustomButton } from ".";
 const Hero = () => {
 
   const handleScroll = () =>{
+    const nextSection = document.getElementById("discover");
 
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Find, book, rent a car—quick and super easy!
+          Szybko, Łatwo, Komfortowo — Wynajmij Samochód Dla Każdej Podróży
         </h1>
 
         <p className="hero__subtitle">
-          Streamline your car rental experience with our effortless booking
-          process.
+          Zadzwoń już teraz by ustalić szczegóły — 509 890 670
         </p>
 
         <CustomButton
-          title="Explore Cars"
+          title="Sprawdź nasze samochody!"
           containerStyles="bg-primary-blue text-white rounded-full mt-10"
           handleClick={handleScroll}
         />

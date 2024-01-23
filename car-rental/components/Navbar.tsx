@@ -11,7 +11,7 @@ const Navbar = () => {
           <Image src="/altLogo.png" alt='Car Hub Logo' width={118} height={18} className='object-contain'/>
           <span
           className='text-xl px-5'
-          >Wynajem samochodów — Albert Pieniądz
+          >Wynajem samochodów
           </span>
         </Link>
       </nav>
