@@ -4,8 +4,8 @@ import { relative } from "path";
 import { Footer, Navbar } from "@/components";
 
 export const metadata: Metadata = {
-  title: "Wynajem samochodow - Albert Pieniadz ",
-  description: "Discover the best cars in the world",
+  title: "Wynajem samochodow",
+  description: "Świetna jakoś, niskie ceny",
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }
